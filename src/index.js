@@ -20,6 +20,9 @@ const allGamesEngine = (gameName, gameQuestion, gameContent) => {
       break;
     }
   }
+  if (numberOfCorrectAnswers === 3) {
+    console.log(`Congratulations, ${userName}!`);
+  }
 };
 
 export default allGamesEngine;
