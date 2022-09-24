@@ -5,3 +5,5 @@
 <a href="https://codeclimate.com/github/dashulyaalex/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/0d4c0f732a63e0cabf23/maintainability" /></a>
 
 https://asciinema.org/a/98AbliFieSUq3Zthx6GZ6c9Oo
+
+https://asciinema.org/a/odhCOOXys07VEYlytAPzOiHkq
