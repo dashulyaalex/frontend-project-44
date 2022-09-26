@@ -1,4 +1,4 @@
-# BRAIN-GAMES
+# WELLCOME to BRAIN-GAMES
 
 # 5 arithmetic games to train your brains
 
@@ -30,12 +30,11 @@ This is a Hexlet students project
 ```bash
 make install
 ```
-### Setup
 
 ```bash
 npm link
 ```
-### To start type name of the Game in your terminal
+### Type name of the Game in your terminal to start playing
 
 
 
