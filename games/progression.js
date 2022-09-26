@@ -5,13 +5,13 @@ import getRandomInterger from '../src/getRandom.js';
 const progressionGame = () => {
   const gameQuestion = 'What number is missing in the progression?';
   const exercise = () => {
-    let progressiontNumber = getRandomInterger(1, 10);
+    let progressionNumber = getRandomInterger(1, 10);
     const difference = getRandomInterger(2, 10);
     const hiddenCharacetrIndex = getRandomInterger(0, 9);
-    const progression = [progressiontNumber];
+    const progression = [progressionNumber];
     for (let i = 0; i < 9; i += 1) {
-      progressiontNumber += difference;
-      progression.push(progressiontNumber);
+      progressionNumber += difference;
+      progression.push(progressionNumber);
     }
     const correctAnswer = progression[hiddenCharacetrIndex];
     progression[hiddenCharacetrIndex] = '..';
