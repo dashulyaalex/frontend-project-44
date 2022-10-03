@@ -1,6 +1,20 @@
 import { cons } from '@hexlet/pairs';
-import allGamesEngine from '../src/index.js';
-import getRandomInterger from '../src/getRandom.js';
+import allGamesEngine from '../index.js';
+import getRandomInterger from '../getRandom.js';
+
+const calculator = (num1, num2, operator) => {
+  let result = 0;
+  switch (operator) {
+    case '+': result = num1 + num2;
+      break;
+    case '-': result = num1 - num2;
+      break;
+    case '*': result = num1 * num2;
+      break;
+    default: break;
+  }
+  return result;
+};
 
 const calcGame = () => {
   const gameQuestion = 'What is the result of the expression?';
@@ -11,16 +25,7 @@ const calcGame = () => {
     const operatorIndex = getRandomInterger(0, 2);
     const operator = operators[operatorIndex];
     const question = `${firstNumber} ${operator} ${secondNumber}`;
-    let correctAnswer;
-    switch (operator) {
-      case '+': correctAnswer = firstNumber + secondNumber;
-        break;
-      case '-': correctAnswer = firstNumber - secondNumber;
-        break;
-      case '*': correctAnswer = firstNumber * secondNumber;
-        break;
-      default: break;
-    }
+    const correctAnswer = calculator(firstNumber, secondNumber, operator);
     const result = cons(question, String(correctAnswer));
     return result;
   };

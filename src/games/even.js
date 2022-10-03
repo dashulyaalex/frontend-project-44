@@ -1,12 +1,17 @@
 import { cons } from '@hexlet/pairs';
-import allGamesEngine from '../src/index.js';
-import getRandomInterger from '../src/getRandom.js';
+import allGamesEngine from '../index.js';
+import getRandomInterger from '../getRandom.js';
+
+const isEven = (num) => {
+  const result = (num % 2) === 0 ? 'yes' : 'no';
+  return result;
+};
 
 const evenGame = () => {
   const gameQuestion = 'Answer "yes" if the number is even, otherwise answer "no".';
   const exercise = () => {
     const number = getRandomInterger(0, 100);
-    const correctAnswer = (number % 2) === 0 ? 'yes' : 'no';
+    const correctAnswer = isEven(number);
     const result = cons(number, correctAnswer);
     return result;
   };

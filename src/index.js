@@ -6,23 +6,20 @@ const allGamesEngine = (gameName, gameQuestion, gameContent) => {
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   console.log(`${gameQuestion}`);
-  let numberOfCorrectAnswers = 0;
-  while (numberOfCorrectAnswers < 3) {
+  const numberOfCorrectAnswers = 3;
+  for (let i = 0; i < numberOfCorrectAnswers; i += 1) {
     const exerciseAnswerSet = gameContent();
     console.log(`Question: ${car(exerciseAnswerSet)}`);
     const userAnswer = readlineSync.question('Your answer: ');
     const correctAnswer = cdr(exerciseAnswerSet);
     if (userAnswer === correctAnswer) {
-      numberOfCorrectAnswers += 1;
       console.log('Correct!');
     } else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!`);
-      break;
+      return;
     }
   }
-  if (numberOfCorrectAnswers === 3) {
-    console.log(`Congratulations, ${userName}!`);
-  }
+  console.log(`Congratulations, ${userName}!`);
 };
 
 export default allGamesEngine;
