@@ -5,11 +5,12 @@
 
 # WELLCOME to BRAIN-GAMES
 
-#### System requirements:
+#### Requirements:
+
 Node.js (min v17.6)
 
 ### Setup
-Clone repository
+Clone repository and run:
 
 ```bash
 make install
