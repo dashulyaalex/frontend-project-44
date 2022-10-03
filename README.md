@@ -3,7 +3,7 @@
 [![Actions Status](https://github.com/dashulyaalex/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/dashulyaalex/frontend-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/0d4c0f732a63e0cabf23/maintainability)](https://codeclimate.com/github/dashulyaalex/frontend-project-44/maintainability">)
 
-# WELLCOME to BRAIN-GAMES
+# WELCOME to BRAIN-GAMES
 
 #### Requirements:
 
@@ -19,7 +19,7 @@ make install
 npm link
 ```
 
-### 5 arithmetic games to train your brains
+## 5 arithmetic games to train your brains
 
 Answer three times right and you win!
 One wrong answer ends the game. You can try again ;)
