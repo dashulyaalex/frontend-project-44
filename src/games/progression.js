@@ -18,7 +18,7 @@ const progressionGame = () => {
     const progressionStarter = getRandomInterger(1, 10);
     const difference = getRandomInterger(2, 10);
     const progressionLength = getRandomInterger(5, 15);
-    const hiddenCharacetrIndex = getRandomInterger(0, 9);
+    const hiddenCharacetrIndex = getRandomInterger(0, progressionLength - 1);
     const progression = getProgression(progressionStarter, difference, progressionLength);
     const correctAnswer = progression[hiddenCharacetrIndex];
     progression[hiddenCharacetrIndex] = '..';
