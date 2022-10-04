@@ -27,16 +27,16 @@ One wrong answer ends the game. You can try again ;)
 Type name of the Game in your terminal to start playing
 
 ## Brain-even game demonstration
-[![asciicast](https://asciinema.org/a/98AbliFieSUq3Zthx6GZ6c9Oo.svg)](https://asciinema.org/a/98AbliFieSUq3Zthx6GZ6c9Oo)
+[![asciicast](https://asciinema.org/a/SM9DgBqjmVS5O9rejXnrXkEeG.svg)](https://asciinema.org/a/SM9DgBqjmVS5O9rejXnrXkEeG)
 
 ## Brain-calc game demonstration
-[![asciicast](https://asciinema.org/a/WSMDrE3YKgU5pJW6BQnpY0gMz.svg)](https://asciinema.org/a/WSMDrE3YKgU5pJW6BQnpY0gMz)
+[![asciicast](https://asciinema.org/a/AZ92w6zN6tjCHmWJwDeWWAytK.svg)](https://asciinema.org/a/AZ92w6zN6tjCHmWJwDeWWAytK)
 
 ## Brain-gcd game demonstration
-[![asciicast](https://asciinema.org/a/uuC7txlqc5GFNtVRp1ORjRopc.svg)](https://asciinema.org/a/uuC7txlqc5GFNtVRp1ORjRopc)
+[![asciicast](https://asciinema.org/a/ojE07JFcut7eCDxJyGVWY6Dem.svg)](https://asciinema.org/a/ojE07JFcut7eCDxJyGVWY6Dem)
 
 ## Brain-progression game demonstration
-[![asciicast](https://asciinema.org/a/bwQhbJ0v2Bv1KJ3DktahHAlwr.svg)](https://asciinema.org/a/bwQhbJ0v2Bv1KJ3DktahHAlwr)
+[![asciicast](https://asciinema.org/a/cCgcnEQUJiouJi6qDjaHySsCr.svg)](https://asciinema.org/a/cCgcnEQUJiouJi6qDjaHySsCr)
 
 ## Brain-prime game demonstration
 [![asciicast](https://asciinema.org/a/DBo40zN5QFtd4cOqDjRczLkbv.svg)](https://asciinema.org/a/DBo40zN5QFtd4cOqDjRczLkbv)
