@@ -3,10 +3,8 @@ import allGamesEngine from '../index.js';
 import getRandomInterger from '../getRandom.js';
 
 const isEven = (num) => {
-  if ((num % 2) === 0) {
-    return true;
-  }
-  return false;
+  const result = (num % 2) === 0;
+  return result;
 };
 
 const evenGame = () => {
